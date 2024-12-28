@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+}
+.header,
+.container,
+.footer {
+    margin: auto;
+    width: 800px;
+}
+.container {
+    box-sizing: border-box;
+}
+
+/* COLORS */
+.links a,
+.hero p {
+    color: #E5E7EB;
+}
+.hero-header,
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+/* COLORS END */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+.hero p {
+    margin: 0;
+    font-size: 18px;
+}
+.hero-left, 
+.hero-right {
+    flex: 1;
+}
+.hero-right {
+    display: flex;
+    align-items: center;
+}
+.hero-right img {
+    width: 100%;
+    height: auto;
+}
+.header {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.header-logo {
+    margin: 0;
+}
+.links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    
+}
+.links a {
+    text-decoration: none;
+}
